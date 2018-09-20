@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-transfer v-model="value1" :data="data"></el-transfer>
+    <el-transfer filterable v-model="value1" :data="data"></el-transfer>
   </div>
 </template>
 
